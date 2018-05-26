@@ -189,6 +189,8 @@ header {
 .products-item p {
   font-size: 0.875rem;
   line-height: 1.4rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .products-btn {
@@ -208,4 +210,63 @@ header {
 .products-btn:hover {
   background-color: #252525;
   color: #e7e4d8;
+}
+
+/* Locals*/
+#places {
+  padding: 20px 0;
+}
+
+#places .places-item {
+  margin: 60px auto;
+}
+
+#places .places-item::after, #places .places-item::before {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+#places .places-item img {
+  max-width: 460px;
+  display: block;
+  float: left;
+  margin: 0 10px;
+}
+
+#places .places-item .places-text {
+  max-width: 460px;
+  display: block;
+  float: left;
+  margin: 0 10px;
+}
+
+#places .places-item .places-text p  {
+  margin-bottom: 40px;
+  max-width: 320px;
+  line-height: 1.4rem;
+}
+
+#places .places-item .places-text h2 {
+  margin-bottom: 20px;
+}
+
+#places .places-item .places-text a {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  border: 3px solid #252525;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #252525;
+}
+
+
+/* Typograph */
+
+h2 {
+  font-size: 2.25rem;
+}
+
+p {
+  font-size: 1.125rem;
 }
